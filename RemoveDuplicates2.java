@@ -5,6 +5,10 @@
 
 public class RemoveDuplicates2 {
   public int removeDuplicates(int[] nums) {
+    if (nums == null || nums.length == 0) {
+      return 0;
+    }
+
     int count = 1;
     int index = 1;
 
